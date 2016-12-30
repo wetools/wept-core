@@ -1,0 +1,52 @@
+{
+  "name": "wept-core",
+  "version": "0.1.0",
+  "description": "微信小程序开发工具 WEPT 控制层代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "chemzqm@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "growl": "^1.9.2",
+    "gulp": "^3.9.1",
+    "gulp-live-serve": "^1.0.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-util": "^3.0.8",
+    "gulp-webpack": "^1.5.0",
+    "stack-source-map": "^1.0.6",
+    "webpack": "^1.14.0",
+    "wept-build": "^0.1.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "component-classes": "^1.2.6",
+    "component-emitter": "^1.2.1",
+    "component-event": "^0.2.0",
+    "component-querystring": "^2.0.0",
+    "debounce": "^1.0.0",
+    "domify": "^1.4.0",
+    "jr-qrcode": "^1.0.5",
+    "merge": "^1.2.0",
+    "node-serial": "^0.1.1",
+    "nprogress": "^0.2.0",
+    "prop-detect": "^1.1.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "throttleit": "^1.0.0",
+    "wept-sdk": "^0.1.2"
+  },
+  "browser": {
+    "querystring": "component-querystring",
+    "emitter": "component-emitter",
+    "event": "component-event",
+    "classes": "component-classes"
+  }
+}
